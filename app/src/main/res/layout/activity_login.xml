@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:padding="20dip"
+android:orientation="vertical"
+android:background="@color/colorPrimary"
+tools:context="itchetumal.edu.mx.dadm.reportatec.Login"
+android:weightSum="1">
+
+
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:src="@drawable/mapache" />
+
+<EditText
+    android:id="@+id/usu"
+    android:layout_width="229dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_weight="0.05"
+    android:maxLength="30"
+    android:background="@drawable/edittext"
+    android:hint="Usuario"
+    android:textAlignment="center"
+    android:textColorHint="@color/coloredit"
+    android:layout_marginTop="5dip" android:layout_marginBottom="20dip" />
+
+<EditText
+    android:id="@+id/clave"
+    android:maxLength="50"
+    android:layout_width="229dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_weight="0.05"
+    android:background="@drawable/edittext"
+    android:hint="Contraseña"
+    android:textAlignment="center"
+    android:inputType="textPassword"
+    android:textColorHint="@color/coloredit"
+    android:layout_marginTop="5dip" android:layout_marginBottom="20dip" />
+
+    <Button
+        android:id="@+id/btnsesion"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/btn"
+        android:text="Iniciar Sesión"
+        android:textColor="#FFFFFF" />
+
+    <Button
+    android:id="@+id/btnReg"
+    android:layout_width="174dp"
+    android:layout_height="wrap_content"
+    android:text="Registrar"
+    android:textColor="#FFFFFF"
+    android:background="@drawable/btn"
+    android:layout_gravity="center"
+    android:layout_marginTop="5dip" android:layout_marginBottom="20dip" />
+
+
+</LinearLayout>

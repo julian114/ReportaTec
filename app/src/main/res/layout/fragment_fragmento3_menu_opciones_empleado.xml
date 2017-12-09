@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="itchetumal.edu.mx.dadm.reportatec.Fragmento3MenuOpcionesEmpleado">
+
+
+    <view
+        android:id="@+id/pagerFragmentoMenuOpcionesEmpleado"
+        class="android.support.v4.view.ViewPager"
+        id="@+id/viewFragmentoMenuOpcionesEmpleado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:padding="20dip"
+android:orientation="vertical"
+android:background="@color/colorPrimaryDark"
+tools:context="itchetumal.edu.mx.dadm.reportatec.Registrar"
+android:weightSum="1">
+
+    <TextView
+    android:id="@+id/textView"
+    android:layout_width="152dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="10dip"
+    android:layout_marginTop="5dip"
+    android:text="¡BIENVENIDO!"
+    android:textStyle="bold"
+    android:textColor="@android:color/background_light"
+    android:textSize="20dp" />
+
+<EditText
+    android:id="@+id/numcontrol"
+    android:layout_width="229dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_weight="0.05"
+    android:maxLength="8"
+    android:background="@drawable/edittext"
+    android:hint="Num. Control"
+    android:textAlignment="center"
+    android:textColorHint="@color/coloredit"
+    android:layout_marginTop="5dip" android:layout_marginBottom="10dip"
+    android:inputType="number"/>
+
+<EditText
+    android:id="@+id/nomUsu"
+    android:layout_width="229dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="10dip"
+    android:layout_marginTop="5dip"
+    android:layout_weight="0.05"
+    android:background="@drawable/edittext"
+    android:hint="Nombre(s)"
+    android:maxLength="40"
+    android:textAlignment="center"
+    android:textColorHint="@color/coloredit"
+    android:inputType="text"/>
+<EditText
+    android:id="@+id/correo"
+    android:layout_width="229dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_weight="0.05"
+    android:maxLength="40"
+    android:background="@drawable/edittext"
+    android:hint="Correo"
+    android:textAlignment="center"
+    android:textColorHint="@color/coloredit"
+    android:layout_marginTop="5dip" android:layout_marginBottom="10dip"
+    android:inputType="textWebEmailAddress"/>
+<EditText
+    android:id="@+id/usuario"
+    android:layout_width="229dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_weight="0.05"
+    android:maxLength="30"
+    android:background="@drawable/edittext"
+    android:hint="Usuario"
+    android:textAlignment="center"
+    android:textColorHint="@color/coloredit"
+    android:layout_marginTop="5dip" android:layout_marginBottom="10dip"
+    android:inputType="text"/>
+<EditText
+    android:id="@+id/cont"
+    android:layout_width="229dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_weight="0.05"
+    android:maxLength="40"
+    android:background="@drawable/edittext"
+    android:hint="Contraseña"
+    android:textAlignment="center"
+    android:textColorHint="@color/coloredit"
+    android:layout_marginTop="5dip" android:layout_marginBottom="10dip"
+    android:inputType="textPassword"/>
+
+
+<Button
+    android:id="@+id/btnEnviar"
+    android:layout_width="174dp"
+    android:layout_height="35dp"
+    android:layout_gravity="center"
+    android:layout_marginBottom="10dip"
+    android:layout_marginTop="5dip"
+    android:background="@drawable/btn"
+    android:text="Enviar"
+    android:textColor="#FFFFFF" />
+
+<Button
+    android:id="@+id/btncan"
+    android:layout_width="174dp"
+    android:layout_height="33dp"
+    android:text="Cancelar"
+    android:textColor="#FFFFFF"
+    android:background="@drawable/btn"
+    android:layout_gravity="center"
+    android:layout_marginTop="5dip" android:layout_marginBottom="10dip" />
+
+
+
+</LinearLayout>

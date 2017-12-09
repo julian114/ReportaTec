@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/PerfilUsuario"
+            android:icon="@drawable/ic_perfilito"
+            android:title="Mi Perfil" />
+        <item
+            android:id="@+id/Frag1MenuOpUser"
+            android:icon="@drawable/ic_homes"
+            android:title="Inicio Usuario" />
+        <item
+            android:id="@+id/Frag2MenuOpAdmin"
+            android:icon="@drawable/ic_homes"
+            android:title="Inicio Admin" />
+        <item
+            android:id="@+id/Frag3MenuOpEmp"
+            android:icon="@drawable/ic_homes"
+            android:title="Inicio Empleado" />
+        <item
+            android:id="@+id/Reportes"
+            android:icon="@drawable/ic_reportito"
+            android:title="Realizar un reporte" />
+        <item
+            android:id="@+id/EmpleadosAdmin"
+            android:icon="@drawable/ic_empleadititos"
+            android:title="Administrar personal" />
+        <item
+            android:id="@+id/FragPreguntaFrecuente"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Preguntas Frecuentes" />
+        <item
+            android:id="@+id/Salir"
+            android:icon="@drawable/ic_salir"
+            android:title="Cerrar sesión" />
+    </group>
+
+
+</menu>

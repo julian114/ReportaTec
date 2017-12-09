@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_light"
+    tools:context="itchetumal.edu.mx.dadm.reportatec.UsuarioPerfil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:paddingTop="5dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/TextoPlanoTitulo"
+                    android:layout_width="276dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:text="Actualización de perfil"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextoPlanoNumCtrlUsuarioPerfil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/spinnerFragmeno4EstadoDelReporte"
+                        android:text="Num ctrl  : "
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/editTextNumCtrlUsuarioPerfil"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView2"
+                        android:layout_weight="1"
+                        android:contentDescription="nombre de usuario"
+                        android:ems="10"
+                        android:hint="Num ctrl"
+                        android:inputType="text"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextoPlanoNombresUusarioPerfil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/spinnerFragmeno4EstadoDelReporte"
+                        android:text="Nombres  : "
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/editTextNombresUsuarioPerfil"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView2"
+                        android:layout_weight="1"
+                        android:contentDescription="nombre de usuario"
+                        android:ems="10"
+                        android:hint="Nombres"
+                        android:inputType="text"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextoPlanoCorreoUsuarioPerfil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/spinnerFragmeno4EstadoDelReporte"
+                        android:text="Correo  : "
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/editTextCorreoUsuarioPerfil"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView2"
+                        android:layout_weight="1"
+                        android:contentDescription="nombre de usuario"
+                        android:ems="10"
+                        android:hint="Correo"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextoPlanoUsuarioUsuarioPerfil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/spinnerFragmeno4EstadoDelReporte"
+                        android:text="Usuario  : "
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/editTextUsuarioUsuarioPerfil"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView2"
+                        android:layout_weight="1"
+                        android:contentDescription="nombre de usuario"
+                        android:ems="10"
+                        android:hint="Usuario"
+                        android:inputType="text"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextoPlanoContraseñaUsuarioPerfil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/spinnerFragmeno4EstadoDelReporte"
+                        android:text="Contraseña  : "
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/editTextContraseñaUsuarioPerfil"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView2"
+                        android:layout_weight="1"
+                        android:contentDescription="nombre de usuario"
+                        android:ems="10"
+                        android:hint="Contraseña"
+                        android:inputType="text"
+                        android:textColor="@android:color/darker_gray" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textoPlanoAnuncio"
+                    android:layout_width="match_parent"
+                    android:layout_height="218dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mySpinner"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnActualizarInformacionUsuarioPerfil"
+                        android:layout_width="134dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/holo_green_dark"
+                        android:text="ACTUALIZAR"
+                        android:textColor="@android:color/background_light" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
+

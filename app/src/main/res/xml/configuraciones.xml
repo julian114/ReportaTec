@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- PREFERENCIAS GENERALES -->
+    <PreferenceScreen
+        android:key="pref_gen"
+        android:title="Preferencias Generales">
+        <!-- contenido  -->
+        <CheckBoxPreference
+            android:key="bloquear"
+            android:title="Bloquear pantalla"
+            android:defaultValue="false" />
+    </PreferenceScreen>
+
+    <!-- PREFERENCIAS DEL SISTEMA -->
+    <PreferenceScreen
+        android:key="pref_sis"
+        android:title="Prefrenecias del Sistema">
+        <!-- contenido  -->
+        <EditTextPreference
+            android:key="ip_servidor"
+            android:title="Ingrese la ip"
+            android:summary="direccion del servidor"
+            android:selectAllOnFocus="true"
+            android:inputType="phone"
+            android:singleLine="true" />
+
+    </PreferenceScreen>
+
+
+</PreferenceScreen>

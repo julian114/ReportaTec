@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f28a00</color>
+    <color name="colorPrimaryDark">#f28a00</color>
+    <color name="colorAccent">#636966</color>
+    <color name="rescolorPrimary">#f28a00</color>
+    <color name="rescolorPrimaryDark">#3385C1</color>
+    <color name="rescolorAccent">#636966</color>
+    <color name="fondito1">#0395c8</color>
+    <color name="fondito2">#707070</color>
+    <color name="coloredit">#3385C1</color>
+</resources>
